@@ -39,19 +39,19 @@
         <file id="35" name="Left Arm - R View.png" width="80" height="80" pivot_x="0" pivot_y="1"/>
         <file id="36" name="Left Hand - R View.png" width="80" height="80" pivot_x="0" pivot_y="1"/>
         <file id="37" name="Face 02 - R View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
-        <file id="38" name="Melee Weapon.png" width="160" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="38" name="Melee Weapon.png" width="160" height="80" pivot_x="0" pivot_y="1"/>
         <file id="39" name="Slash FX 00.png" width="180" height="180" pivot_x="0" pivot_y="1"/>
         <file id="40" name="Slash FX 01.png" width="180" height="180" pivot_x="0" pivot_y="1"/>
         <file id="41" name="Slash FX 02.png" width="180" height="180" pivot_x="0" pivot_y="1"/>
         <file id="42" name="Face 03 - Front.png" width="160" height="128" pivot_x="0" pivot_y="1"/>
         <file id="43" name="Face 03 - L View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
-        <file id="44" name="Melee Weapon - L View.png" width="160" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="44" name="Melee Weapon - L View.png" width="160" height="80" pivot_x="0" pivot_y="1"/>
         <file id="45" name="Face 03 - R View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
         <file id="46" name="Face 04 - Front View.png" width="160" height="128" pivot_x="0" pivot_y="1"/>
         <file id="47" name="Face 04 - L View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
         <file id="48" name="Face 04 - R View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
     </folder>
-    <entity id="0" name="Robber">
+    <entity id="0" name="Thug">
         <obj_info name="bone_002" type="bone" w="35.849" h="10"/>
         <obj_info name="bone_003" type="bone" w="18.8292" h="10"/>
         <obj_info name="bone_004" type="bone" w="69.2593" h="10"/>
@@ -1022,7 +1022,7 @@
                     <object_ref id="2" parent="6" timeline="13" key="0" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="9" key="0" z_index="3"/>
                     <object_ref id="4" parent="0" timeline="2" key="0" z_index="4"/>
-                    <object_ref id="5" parent="3" timeline="7" key="1" z_index="5"/>
+                    <object_ref id="5" parent="3" timeline="7" key="0" z_index="5"/>
                     <object_ref id="6" parent="3" timeline="4" key="0" z_index="6"/>
                     <object_ref id="7" parent="2" timeline="3" key="0" z_index="7"/>
                     <object_ref id="8" parent="1" timeline="0" key="0" z_index="8"/>
@@ -1043,7 +1043,7 @@
                     <object_ref id="2" parent="6" timeline="13" key="0" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="9" key="0" z_index="3"/>
                     <object_ref id="4" parent="0" timeline="2" key="0" z_index="4"/>
-                    <object_ref id="5" parent="3" timeline="7" key="1" z_index="5"/>
+                    <object_ref id="5" parent="3" timeline="7" key="0" z_index="5"/>
                     <object_ref id="6" parent="3" timeline="4" key="0" z_index="6"/>
                     <object_ref id="7" parent="2" timeline="3" key="0" z_index="7"/>
                     <object_ref id="8" parent="1" timeline="0" key="0" z_index="8"/>
@@ -1064,7 +1064,7 @@
                     <object_ref id="2" parent="6" timeline="13" key="1" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="9" key="1" z_index="3"/>
                     <object_ref id="4" parent="0" timeline="2" key="1" z_index="4"/>
-                    <object_ref id="5" parent="3" timeline="7" key="2" z_index="5"/>
+                    <object_ref id="5" parent="3" timeline="7" key="0" z_index="5"/>
                     <object_ref id="6" parent="3" timeline="4" key="1" z_index="6"/>
                     <object_ref id="7" parent="2" timeline="3" key="1" z_index="7"/>
                     <object_ref id="8" parent="1" timeline="0" key="1" z_index="8"/>
@@ -1085,7 +1085,7 @@
                     <object_ref id="2" parent="6" timeline="13" key="2" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="9" key="2" z_index="3"/>
                     <object_ref id="4" parent="0" timeline="2" key="2" z_index="4"/>
-                    <object_ref id="5" parent="3" timeline="7" key="3" z_index="5"/>
+                    <object_ref id="5" parent="3" timeline="7" key="0" z_index="5"/>
                     <object_ref id="6" parent="3" timeline="4" key="2" z_index="6"/>
                     <object_ref id="7" parent="2" timeline="3" key="2" z_index="7"/>
                     <object_ref id="8" parent="1" timeline="0" key="2" z_index="8"/>
@@ -1106,7 +1106,7 @@
                     <object_ref id="2" parent="6" timeline="13" key="3" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="9" key="3" z_index="3"/>
                     <object_ref id="4" parent="0" timeline="2" key="3" z_index="4"/>
-                    <object_ref id="5" parent="3" timeline="7" key="4" z_index="5"/>
+                    <object_ref id="5" parent="3" timeline="7" key="0" z_index="5"/>
                     <object_ref id="6" parent="3" timeline="4" key="3" z_index="6"/>
                     <object_ref id="7" parent="2" timeline="3" key="3" z_index="7"/>
                     <object_ref id="8" parent="1" timeline="0" key="3" z_index="8"/>
@@ -1214,19 +1214,7 @@
             </timeline>
             <timeline id="7" name="Melee Weapon">
                 <key id="0" spin="0">
-                    <object folder="0" file="38" x="-25.295604" y="-16.387492" angle="90.72266"/>
-                </key>
-                <key id="1" time="99" spin="0">
-                    <object folder="0" file="38" x="-26.150334" y="-7.333434" angle="90.72266" scale_x="0.749207"/>
-                </key>
-                <key id="2" time="231" spin="0">
-                    <object folder="0" file="38" x="-25.295604" y="-16.387492" angle="90.72266" scale_x="0.934909"/>
-                </key>
-                <key id="3" time="264" spin="0">
-                    <object folder="0" file="38" x="-25.295604" y="-16.387492" angle="90.72266" scale_x="0.934909"/>
-                </key>
-                <key id="4" time="330" spin="0">
-                    <object folder="0" file="38" x="-25.295604" y="-16.387492" angle="90.72266" scale_x="0.934909"/>
+                    <object folder="0" file="38" x="-31.858353" y="-17.221941" angle="90.72266"/>
                 </key>
             </timeline>
             <timeline id="8" name="Slash FX 00">
@@ -2605,7 +2593,7 @@
                     <object_ref id="5" parent="1" timeline="0" key="1" z_index="5"/>
                     <object_ref id="6" parent="1" timeline="1" key="0" z_index="6"/>
                     <object_ref id="7" parent="5" timeline="18" key="2" z_index="7"/>
-                    <object_ref id="8" parent="5" timeline="17" key="1" z_index="8"/>
+                    <object_ref id="8" parent="5" timeline="17" key="0" z_index="8"/>
                     <object_ref id="9" parent="5" timeline="4" key="1" z_index="9"/>
                     <object_ref id="10" parent="4" timeline="3" key="1" z_index="10"/>
                 </key>
@@ -2626,7 +2614,7 @@
                     <object_ref id="5" parent="1" timeline="0" key="1" z_index="5"/>
                     <object_ref id="6" parent="1" timeline="1" key="0" z_index="6"/>
                     <object_ref id="7" parent="5" timeline="18" key="3" z_index="7"/>
-                    <object_ref id="8" parent="5" timeline="17" key="1" z_index="8"/>
+                    <object_ref id="8" parent="5" timeline="17" key="0" z_index="8"/>
                     <object_ref id="9" parent="5" timeline="4" key="1" z_index="9"/>
                     <object_ref id="10" parent="4" timeline="3" key="1" z_index="10"/>
                 </key>
@@ -2647,7 +2635,7 @@
                     <object_ref id="5" parent="1" timeline="0" key="2" z_index="5"/>
                     <object_ref id="6" parent="1" timeline="1" key="1" z_index="6"/>
                     <object_ref id="7" parent="5" timeline="18" key="4" z_index="7"/>
-                    <object_ref id="8" parent="5" timeline="17" key="2" z_index="8"/>
+                    <object_ref id="8" parent="5" timeline="17" key="0" z_index="8"/>
                     <object_ref id="9" parent="5" timeline="4" key="2" z_index="9"/>
                     <object_ref id="10" parent="4" timeline="3" key="2" z_index="10"/>
                 </key>
@@ -2841,13 +2829,7 @@
             </timeline>
             <timeline id="17" name="Melee Weapon_000">
                 <key id="0" spin="0">
-                    <object folder="0" file="38" x="-22.299598" y="-26.112228" angle="88.830686"/>
-                </key>
-                <key id="1" time="231" spin="0">
-                    <object folder="0" file="38" x="-24.657185" y="-20.171019" angle="88.830686"/>
-                </key>
-                <key id="2" time="330" spin="0">
-                    <object folder="0" file="38" x="-24.657185" y="-20.171019" angle="88.830686"/>
+                    <object folder="0" file="38" x="-29.015165" y="-19.69015" angle="88.830686"/>
                 </key>
             </timeline>
             <timeline id="18" name="Slash FX 00_002">
@@ -4077,7 +4059,7 @@
                     <bone_ref id="6" timeline="15" key="1"/>
                     <bone_ref id="7" timeline="16" key="1"/>
                     <object_ref id="0" parent="5" timeline="18" key="2" z_index="0"/>
-                    <object_ref id="1" parent="5" timeline="17" key="1" z_index="1"/>
+                    <object_ref id="1" parent="5" timeline="17" key="0" z_index="1"/>
                     <object_ref id="2" parent="5" timeline="8" key="1" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="7" key="1" z_index="3"/>
                     <object_ref id="4" parent="7" timeline="6" key="1" z_index="4"/>
@@ -4098,7 +4080,7 @@
                     <bone_ref id="6" timeline="15" key="1"/>
                     <bone_ref id="7" timeline="16" key="1"/>
                     <object_ref id="0" parent="5" timeline="18" key="3" z_index="0"/>
-                    <object_ref id="1" parent="5" timeline="17" key="1" z_index="1"/>
+                    <object_ref id="1" parent="5" timeline="17" key="0" z_index="1"/>
                     <object_ref id="2" parent="5" timeline="8" key="1" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="7" key="1" z_index="3"/>
                     <object_ref id="4" parent="7" timeline="6" key="1" z_index="4"/>
@@ -4119,7 +4101,7 @@
                     <bone_ref id="6" timeline="15" key="2"/>
                     <bone_ref id="7" timeline="16" key="2"/>
                     <object_ref id="0" parent="5" timeline="18" key="4" z_index="0"/>
-                    <object_ref id="1" parent="5" timeline="17" key="2" z_index="1"/>
+                    <object_ref id="1" parent="5" timeline="17" key="0" z_index="1"/>
                     <object_ref id="2" parent="5" timeline="8" key="2" z_index="2"/>
                     <object_ref id="3" parent="4" timeline="7" key="2" z_index="3"/>
                     <object_ref id="4" parent="7" timeline="6" key="2" z_index="4"/>
@@ -4317,13 +4299,7 @@
             </timeline>
             <timeline id="17" name="Melee Weapon - L View">
                 <key id="0" spin="0">
-                    <object folder="0" file="44" x="38.88199" y="14.226326" angle="268.297408"/>
-                </key>
-                <key id="1" time="231" spin="0">
-                    <object folder="0" file="44" x="38.88199" y="14.226326" angle="268.297408"/>
-                </key>
-                <key id="2" time="330" spin="0">
-                    <object folder="0" file="44" x="38.88199" y="14.226326" angle="268.297408"/>
+                    <object folder="0" file="44" x="47.628855" y="12.453924" angle="268.297408"/>
                 </key>
             </timeline>
             <timeline id="18" name="Slash FX 00_000">
@@ -5315,7 +5291,7 @@
                     <bone_ref id="6" timeline="14" key="1"/>
                     <bone_ref id="7" timeline="15" key="1"/>
                     <object_ref id="0" parent="3" timeline="17" key="2" z_index="0"/>
-                    <object_ref id="1" parent="3" timeline="16" key="1" z_index="1"/>
+                    <object_ref id="1" parent="3" timeline="16" key="0" z_index="1"/>
                     <object_ref id="2" parent="3" timeline="5" key="1" z_index="2"/>
                     <object_ref id="3" parent="2" timeline="4" key="1" z_index="3"/>
                     <object_ref id="4" parent="5" timeline="3" key="1" z_index="4"/>
@@ -5335,7 +5311,7 @@
                     <bone_ref id="6" timeline="14" key="1"/>
                     <bone_ref id="7" timeline="15" key="1"/>
                     <object_ref id="0" parent="3" timeline="17" key="3" z_index="0"/>
-                    <object_ref id="1" parent="3" timeline="16" key="1" z_index="1"/>
+                    <object_ref id="1" parent="3" timeline="16" key="0" z_index="1"/>
                     <object_ref id="2" parent="3" timeline="5" key="1" z_index="2"/>
                     <object_ref id="3" parent="2" timeline="4" key="1" z_index="3"/>
                     <object_ref id="4" parent="5" timeline="3" key="1" z_index="4"/>
@@ -5355,7 +5331,7 @@
                     <bone_ref id="6" timeline="14" key="2"/>
                     <bone_ref id="7" timeline="15" key="2"/>
                     <object_ref id="0" parent="3" timeline="17" key="4" z_index="0"/>
-                    <object_ref id="1" parent="3" timeline="16" key="2" z_index="1"/>
+                    <object_ref id="1" parent="3" timeline="16" key="0" z_index="1"/>
                     <object_ref id="2" parent="3" timeline="5" key="2" z_index="2"/>
                     <object_ref id="3" parent="2" timeline="4" key="2" z_index="3"/>
                     <object_ref id="4" parent="5" timeline="3" key="2" z_index="4"/>
@@ -5544,13 +5520,7 @@
             </timeline>
             <timeline id="16" name="Melee Weapon_002">
                 <key id="0" spin="0">
-                    <object folder="0" file="38" x="-22.350757" y="-27.181657" angle="95.025341"/>
-                </key>
-                <key id="1" time="231" spin="0">
-                    <object folder="0" file="38" x="-22.350757" y="-27.181657" angle="95.025341"/>
-                </key>
-                <key id="2" time="330" spin="0">
-                    <object folder="0" file="38" x="-22.350757" y="-27.181657" angle="95.025341"/>
+                    <object folder="0" file="38" x="-30.546866" y="-21.609646" angle="95.025341"/>
                 </key>
             </timeline>
             <timeline id="17" name="Slash FX 00_003">

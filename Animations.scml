@@ -51,7 +51,7 @@
         <file id="47" name="Face 04 - L View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
         <file id="48" name="Face 04 - R View.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
     </folder>
-    <entity id="0" name="Assassin">
+    <entity id="0" name="Robber">
         <obj_info name="bone_002" type="bone" w="35.849" h="10"/>
         <obj_info name="bone_003" type="bone" w="18.8292" h="10"/>
         <obj_info name="bone_004" type="bone" w="69.2593" h="10"/>
